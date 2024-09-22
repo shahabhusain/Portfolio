@@ -4,55 +4,55 @@ import { FaRegEye } from "react-icons/fa";
 const Portfolio = () => {
   const projectData = [
     {
-      img: '/public/images/Capture.png',
+      img: '/images/Capture.png', // Corrected path
       title: "Event Website",
       link: "https://event-websit.vercel.app/",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture1.png",
+      img: "/images/Capture1.png", // Corrected path
       title: "Car Dashboard",
       link: "https://react-car-dashboard-two.vercel.app/dashboard",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture3.png",
+      img: "/images/Capture3.png", // Corrected path
       title: "Jurised",
       link: "https://juris-ed.vercel.app/",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture4.png",
+      img: "/images/Capture4.png", // Corrected path
       title: "Back Dashboard",
       link: "https://bank-dashborad.vercel.app/",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture5.png",
+      img: "/images/Capture5.png", // Corrected path
       title: "Company Website",
       link: "https://company-website-seven-delta.vercel.app/",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture6.png",
+      img: "/images/Capture6.png", // Corrected path
       title: "Transport",
       link: "https://transport-psi-six.vercel.app/",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture7.png",
+      img: "/images/Capture7.png", // Corrected path
       title: "Travel",
       link: "https://travel-website-orcin-ten.vercel.app/",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture8.png",
+      img: "/images/Capture8.png", // Corrected path
       title: "X-Beat",
       link: "https://x-beat-three.vercel.app/",
       category: "Frontend",
     },
     {
-      img: "/public/images/Capture9.png",
+      img: "/images/Capture9.png", // Corrected path
       title: "Hall Management",
       link: "https://hall-managment.vercel.app/",
       category: "Frontend",
