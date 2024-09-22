@@ -1,57 +1,56 @@
 [
-    {
-      "id": 1,
-      "title": "Finance",
-      "category": "Web development",
-      "image": "images/project-1.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Orizon",
-      "category": "Web development",
-      "image": "images/project-2.png"
-    },
-    {
-      "id": 3,
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 5,
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "images/project-5.png"
-    },
-    {
-      "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png"
-    },
-    {
-      "id": 7,
-      "title": "Summary",
-      "category": "Web development",
-      "image": "images/project-7.png"
-    },
-    {
-      "id": 8,
-      "title": "Task Manager",
-      "category": "Applications",
-      "image": "images/project-8.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Arrival",
-      "category": "Web development",
-      "image": "images/project-9.png"
-    }
-  ]
-  
+  {
+    "img": "/images/Capture.png",
+    "title": "Event Website",
+    "link": "https://event-websit.vercel.app/",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture1.png",
+    "title": "Car Dashboard",
+    "link": "https://react-car-dashboard-two.vercel.app/dashboard",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture3.png",
+    "title": "Jurised",
+    "link": "https://juris-ed.vercel.app/",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture4.png",
+    "title": "Back Dashboard",
+    "link": "https://bank-dashborad.vercel.app/",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture5.png",
+    "title": "Company Website",
+    "link": "https://company-website-seven-delta.vercel.app/",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture6.png",
+    "title": "Transport",
+    "link": "https://transport-psi-six.vercel.app/",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture7.png",
+    "title": "Travel",
+    "link": "https://travel-website-orcin-ten.vercel.app/",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture8.png",
+    "title": "X-Beat",
+    "link": "https://x-beat-three.vercel.app/",
+    "category": "Frontend"
+  },
+  {
+    "img": "/images/Capture9.png",
+    "title": "Hall Management",
+    "link": "https://hall-managment.vercel.app/",
+    "category": "Frontend"
+  }
+]
