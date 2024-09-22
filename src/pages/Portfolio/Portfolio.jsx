@@ -1,93 +1,62 @@
 import { useState } from "react";
 import { FaRegEye } from "react-icons/fa";
-// import img1 from "../../public/images/Capture.png";
 
 const Portfolio = () => {
   const projectData = [
     {
       img: '/public/images/Capture.png',
-      title: "",
-      discription: "",
+      title: "Event Website",
+      link: "https://event-websit.vercel.app/",
       category: "Frontend",
     },
     {
       img: "/public/images/Capture1.png",
-      title: "",
-      discription: "",
+      title: "Car Dashboard",
+      link: "https://react-car-dashboard-two.vercel.app/dashboard",
       category: "Frontend",
     },
     {
       img: "/public/images/Capture3.png",
-      title: "",
-      discription: "",
+      title: "Jurised",
+      link: "https://juris-ed.vercel.app/",
       category: "Frontend",
     },
-
     {
       img: "/public/images/Capture4.png",
-      title: "",
-      discription: "",
+      title: "Back Dashboard",
+      link: "https://bank-dashborad.vercel.app/",
       category: "Frontend",
     },
-
     {
       img: "/public/images/Capture5.png",
-      title: "",
-      discription: "",
+      title: "Company Website",
+      link: "https://company-website-seven-delta.vercel.app/",
       category: "Frontend",
     },
-
     {
       img: "/public/images/Capture6.png",
-      title: "",
-      discription: "",
+      title: "Transport",
+      link: "https://transport-psi-six.vercel.app/",
       category: "Frontend",
     },
-
     {
       img: "/public/images/Capture7.png",
-      title: "",
-      discription: "",
+      title: "Travel",
+      link: "https://travel-website-orcin-ten.vercel.app/",
       category: "Frontend",
     },
-
     {
       img: "/public/images/Capture8.png",
-      title: "",
-      discription: "",
+      title: "X-Beat",
+      link: "https://x-beat-three.vercel.app/",
       category: "Frontend",
     },
-
     {
       img: "/public/images/Capture9.png",
-      title: "",
-      discription: "",
+      title: "Hall Management",
+      link: "https://hall-managment.vercel.app/",
       category: "Frontend",
     },
-    // {
-    //   img: "https://tse2.mm.bing.net/th?id=OIP.T2w1wh1qRepNacvZE44JNwHaEK&pid=Api&P=0&h=220",
-    //   title: "",
-    //   discription: "",
-    //   category: "Backend",
-    // },
-    // {
-    //   img: "https://tse2.mm.bing.net/th?id=OIP.T2w1wh1qRepNacvZE44JNwHaEK&pid=Api&P=0&h=220",
-    //   title: "",
-    //   discription: "",
-    //   category: "Backend",
-    // },
-    // {
-    //   img: "https://tse2.mm.bing.net/th?id=OIP.T2w1wh1qRepNacvZE44JNwHaEK&pid=Api&P=0&h=220",
-    //   title: "",
-    //   discription: "",
-    //   category: "Backend",
-    // },
-    // {
-    //   img: "https://tse2.mm.bing.net/th?id=OIP.T2w1wh1qRepNacvZE44JNwHaEK&pid=Api&P=0&h=220",
-    //   title: "",
-    //   discription: "",
-    //   category: "Backend",
-    // },
   ];
 
   // State to store the filtered projects
@@ -140,7 +109,7 @@ const Portfolio = () => {
               data-category={project.category}
               key={index}
             >
-              <a href="#">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <FaRegEye />
@@ -148,7 +117,6 @@ const Portfolio = () => {
                   <img src={project.img} alt={project.title} loading="lazy" />
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
-                <p className="project-category">{project.category}</p>
               </a>
             </li>
           ))}
